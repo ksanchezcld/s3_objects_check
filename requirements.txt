@@ -1,2 +1,5 @@
-aiobotocore==1.1.2
+aiobotocore==2.9.1
 coloredlogs==14.0
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
